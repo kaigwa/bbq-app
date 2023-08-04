@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body{
+    margin: auto;
+    width: 375px;
+    height: 100vh;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+  .registry{
+    background-color: burlywood;
+  }
+  
+  .drinks{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grill{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .type>label{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .music{
+    background-color:cornflowerblue;
+  }
+
+  .games{
+    background-color: cadetblue;
+  }
+
+  .grill{
+    background-color:brown;
+  }
+
+  .card{
+    background-color: chocolate;
+  }
+  

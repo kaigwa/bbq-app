@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/home.css"
 
 const Home = () => {
   return (
@@ -156,7 +157,7 @@ const Home = () => {
 
                 <label>
                     <input type="checkbox" name="nyama" value="option5" />
-                    <p>Regeer</p>
+                    <p>Reggae</p>
                 </label>
 
                 <label>
@@ -197,7 +198,9 @@ const Home = () => {
         </div>
       </div>
         <br />
-      <div>
+
+
+      <div className="games">
         <p>Name games to play/watch at the party</p>
 
         <ol>
@@ -224,8 +227,13 @@ const Home = () => {
         </ol>
       </div>
       <br />
-      <p>**Thank you**</p>
+
+      <div className="card">
+        <span>Thank you, you will receive your invitation card on WhatsApp</span>
+      </div>
+
         <br />
+
       {/* submit btn */}
       <button className="btn">Submit</button>
     </div>
